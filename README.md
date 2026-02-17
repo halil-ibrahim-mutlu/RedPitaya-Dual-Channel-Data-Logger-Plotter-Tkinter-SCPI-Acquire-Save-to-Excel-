@@ -1,7 +1,8 @@
 # RedPitaya-Dual-Channel-Data-Logger-Plotter-Tkinter-SCPI-Acquire-Save-to-Excel-
-# RedPitaya Dual-Channel Data Logger & Plotter (Tkinter + SCPI)
 
 This project is a Python desktop GUI built with **Tkinter** that connects to a **Red Pitaya (SCPI over TCP socket)** (or a compatible SCPI device), acquires waveform data from **two channels**, saves the data to **Excel (.xlsx)**, plots the signals using **Matplotlib**, and also plots the **difference** between channel 1 and channel 2.
+
+!!! Pay attention ıp and port number generaly you can learn tehm on the carh ot web interface  for example redpitaya card prenset both way  
 
 ## Features
 - ✅ Connects to device via TCP socket (SCPI)
