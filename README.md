@@ -1,8 +1,8 @@
 # RedPitaya-Dual-Channel-Data-Logger-Plotter-Tkinter-SCPI-Acquire-Save-to-Excel-
 
-This project is a Python desktop GUI built with **Tkinter** that connects to a **Red Pitaya (SCPI over TCP socket)** (or a compatible SCPI device), acquires waveform data from **two channels**, saves the data to **Excel (.xlsx)**, plots the signals using **Matplotlib**, and also plots the **difference** between channel 1 and channel 2.
+This project is a Python-based desktop application developed with Tkinter that interfaces with a Red Pitaya device via SCPI over TCP/IP. The application performs real-time dual-channel data acquisition, processes waveform data, exports measurements to Excel, and provides signal visualization and comparative analysis through embedded Matplotlib plots. It also includes channel difference calculation and automated plot export in JPEG format.
 
-!!! Pay attention ıp and port number generaly you can learn tehm on the carh ot web interface  for example redpitaya card prenset both way  
+!!!   Pay attention ıp and port number generaly you can learn tehm on the carh ot web interface  for example redpitaya card prenset both way  
 this code run like a client
 server code code is in the redpitaya iy you wanna cahnge code pay attention fpga code sometimes you need to alter fpga codes also you can do it 
 
@@ -37,4 +37,7 @@ server code code is in the redpitaya iy you wanna cahnge code pay attention fpga
 
 Install dependencies:
 ```bash
-pip install pandas matplotlib openpyxl
+pip install pandas ma
+
+
+tplotlib openpyxl
