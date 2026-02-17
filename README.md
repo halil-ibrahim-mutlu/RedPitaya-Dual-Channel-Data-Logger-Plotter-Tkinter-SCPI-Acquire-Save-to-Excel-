@@ -6,6 +6,8 @@ This project is a Python-based desktop application developed with Tkinter that i
 this code run like a client
 server code code is in the redpitaya iy you wanna cahnge code pay attention fpga code sometimes you need to alter fpga codes also you can do it 
 
+also my advise is \r is so important some card to make enter 
+
  !!!!!     ## Features
 - ✅ Connects to device via TCP socket (SCPI)
 - ✅ Acquire data from **Channel 1** (`ACQ:SOUR1:DATA?`)
