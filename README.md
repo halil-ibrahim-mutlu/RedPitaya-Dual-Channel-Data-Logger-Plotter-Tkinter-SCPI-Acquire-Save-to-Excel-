@@ -3,6 +3,8 @@
 This project is a Python desktop GUI built with **Tkinter** that connects to a **Red Pitaya (SCPI over TCP socket)** (or a compatible SCPI device), acquires waveform data from **two channels**, saves the data to **Excel (.xlsx)**, plots the signals using **Matplotlib**, and also plots the **difference** between channel 1 and channel 2.
 
 !!! Pay attention ıp and port number generaly you can learn tehm on the carh ot web interface  for example redpitaya card prenset both way  
+this code run like a client
+server code code is in the redpitaya iy you wanna cahnge code pay attention fpga code sometimes you need to alter fpga codes also you can do it 
 
  !!!!!     ## Features
 - ✅ Connects to device via TCP socket (SCPI)
