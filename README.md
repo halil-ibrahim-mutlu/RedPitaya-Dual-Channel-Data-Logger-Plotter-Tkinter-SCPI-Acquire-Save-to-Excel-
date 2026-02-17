@@ -4,7 +4,7 @@ This project is a Python desktop GUI built with **Tkinter** that connects to a *
 
 !!! Pay attention ıp and port number generaly you can learn tehm on the carh ot web interface  for example redpitaya card prenset both way  
 
-## Features
+ !!!!!     ## Features
 - ✅ Connects to device via TCP socket (SCPI)
 - ✅ Acquire data from **Channel 1** (`ACQ:SOUR1:DATA?`)
 - ✅ Acquire data from **Channel 2** (`ACQ:SOUR2:DATA?`)
@@ -13,12 +13,13 @@ This project is a Python desktop GUI built with **Tkinter** that connects to a *
 - ✅ Display **mean line** on plots
 - ✅ Compute and plot **difference (CH1 - CH2)**
 - ✅ Save plots as **.jpg**
+- ✅ Save datas in excel (excel created in codes otomatically )
 - ✅ Scrollable GUI layout (useful for multiple plots / buttons)
 
 ## How it works (High level)
 1. The program opens a TCP connection to the device:
-   - IP: `169.254.160.106`
-   - Port: `5000`
+   - IP: `your ip `
+   - Port: `port number `
 2. It starts acquisition and requests waveform data via SCPI.
 3. Received data is parsed, converted to numeric values, and cleaned.
 4. Channel data is exported to Excel.
